@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Decomment",
+  "version": "1.0",
+
+  "description": "Removes comments from code on the GeeksforGeeks.org website.",
+
+  
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.geeksforgeeks.org/*"],
+      "js": ["Decomment.js"]
+    }
+  ]
+
+}
